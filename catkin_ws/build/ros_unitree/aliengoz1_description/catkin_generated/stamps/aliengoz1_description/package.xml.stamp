@@ -1,0 +1,16 @@
+<package format="2">
+  <name>aliengoz1_description</name>
+  <version>0.0.1</version>
+  <description>The aliengoz1_description package</description>
+
+  <maintainer email="tonysong620@foxmail.com">Your Name</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+</package>
