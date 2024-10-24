@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/song/unitree/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/song/unitree/catkin_ws/build/CMakeFiles /home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/progress.marks
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/all
+	cd /home/song/unitree/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/song/unitree/catkin_ws/build/CMakeFiles /home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/progress.marks
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/unitree/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/clean
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,12 +154,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/preinstall
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/preinstall
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -168,18 +168,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
+ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule:
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
-aliengoZ1_description_xacro_generated_to_devel_space_: ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
+aliengoZ1_description_xacro_generated_to_devel_space_: ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
 
 .PHONY : aliengoZ1_description_xacro_generated_to_devel_space_
 
 # fast build rule for target.
 aliengoZ1_description_xacro_generated_to_devel_space_/fast:
-	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
+	cd /home/song/unitree/catkin_ws/build && $(MAKE) -f ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
 .PHONY : aliengoZ1_description_xacro_generated_to_devel_space_/fast
 
 # Help Target

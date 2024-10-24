@@ -103,17 +103,17 @@ ros_unitree/unitree_legged_msgs/CMakeFiles/unitree_legged_msgs_generate_messages
 
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowCmd.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowCmd.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/LowCmd.msg
-/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowCmd.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/BmsCmd.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowCmd.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/MotorCmd.msg
+/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowCmd.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/BmsCmd.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/song/unitree/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from unitree_legged_msgs/LowCmd.msg"
 	cd /home/song/unitree/catkin_ws/build/ros_unitree/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/LowCmd.msg -Iunitree_legged_msgs:/home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg
 
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/LowState.msg
+/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/Cartesian.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/MotorState.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/IMU.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/BmsState.msg
-/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/LowState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/Cartesian.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/song/unitree/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from unitree_legged_msgs/LowState.msg"
 	cd /home/song/unitree/catkin_ws/build/ros_unitree/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/LowState.msg -Iunitree_legged_msgs:/home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg
 
@@ -126,10 +126,10 @@ ros_unitree/unitree_legged_msgs/CMakeFiles/unitree_legged_msgs_generate_messages
 
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/HighState.msg
+/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/Cartesian.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/MotorState.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/IMU.msg
 /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/BmsState.msg
-/home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg/HighState.js: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/Cartesian.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/song/unitree/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from unitree_legged_msgs/HighState.msg"
 	cd /home/song/unitree/catkin_ws/build/ros_unitree/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg/HighState.msg -Iunitree_legged_msgs:/home/song/unitree/catkin_ws/src/ros_unitree/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/song/unitree/catkin_ws/devel/share/gennodejs/ros/unitree_legged_msgs/msg
 

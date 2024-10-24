@@ -1,4 +1,4 @@
-# Install script for directory: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_ros/robots/aliengoZ1_description
+# Install script for directory: /home/song/unitree/catkin_ws/src/ros_unitree/unitree_ros/robots/aliengoz1_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoZ1_description/catkin_generated/installspace/aliengoZ1_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoz1_description/catkin_generated/installspace/aliengoZ1_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengoZ1_description/cmake" TYPE FILE FILES
-    "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoZ1_description/catkin_generated/installspace/aliengoZ1_descriptionConfig.cmake"
-    "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoZ1_description/catkin_generated/installspace/aliengoZ1_descriptionConfig-version.cmake"
+    "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoz1_description/catkin_generated/installspace/aliengoZ1_descriptionConfig.cmake"
+    "/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoz1_description/catkin_generated/installspace/aliengoZ1_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengoZ1_description" TYPE FILE FILES "/home/song/unitree/catkin_ws/src/ros_unitree/unitree_ros/robots/aliengoZ1_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aliengoZ1_description" TYPE FILE FILES "/home/song/unitree/catkin_ws/src/ros_unitree/unitree_ros/robots/aliengoz1_description/package.xml")
 endif()
 

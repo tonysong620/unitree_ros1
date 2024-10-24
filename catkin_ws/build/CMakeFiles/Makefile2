@@ -68,7 +68,7 @@ all: ros_unitree/unitree_ros/unitree_controller/all
 all: ros_unitree/unitree_ros/unitree_gazebo/all
 all: ros_unitree/unitree_guide/unitree_guide/all
 all: ros_unitree/unitree_guide/unitree_move_base/all
-all: ros_unitree/unitree_ros/robots/aliengoZ1_description/all
+all: ros_unitree/unitree_ros/robots/aliengoz1_description/all
 all: ros_unitree/unitree_ros/z1_controller/all
 all: ros_unitree/unitree_ros/robots/z1_description/all
 
@@ -90,7 +90,7 @@ preinstall: ros_unitree/unitree_ros/unitree_controller/preinstall
 preinstall: ros_unitree/unitree_ros/unitree_gazebo/preinstall
 preinstall: ros_unitree/unitree_guide/unitree_guide/preinstall
 preinstall: ros_unitree/unitree_guide/unitree_move_base/preinstall
-preinstall: ros_unitree/unitree_ros/robots/aliengoZ1_description/preinstall
+preinstall: ros_unitree/unitree_ros/robots/aliengoz1_description/preinstall
 preinstall: ros_unitree/unitree_ros/z1_controller/preinstall
 preinstall: ros_unitree/unitree_ros/robots/z1_description/preinstall
 
@@ -117,7 +117,7 @@ clean: ros_unitree/unitree_ros/unitree_controller/clean
 clean: ros_unitree/unitree_ros/unitree_gazebo/clean
 clean: ros_unitree/unitree_guide/unitree_guide/clean
 clean: ros_unitree/unitree_guide/unitree_move_base/clean
-clean: ros_unitree/unitree_ros/robots/aliengoZ1_description/clean
+clean: ros_unitree/unitree_ros/robots/aliengoz1_description/clean
 clean: ros_unitree/unitree_ros/z1_controller/clean
 clean: ros_unitree/unitree_ros/robots/z1_description/clean
 
@@ -381,24 +381,6 @@ ros_unitree/unitree_ros/robots/a1_description/clean: ros_unitree/unitree_ros/rob
 .PHONY : ros_unitree/unitree_ros/robots/a1_description/clean
 
 #=============================================================================
-# Directory level rules for directory ros_unitree/unitree_ros/robots/aliengoZ1_description
-
-# Recursive "all" directory target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/all: ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
-
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/all
-
-# Recursive "preinstall" directory target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/preinstall:
-
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/preinstall
-
-# Recursive "clean" directory target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/clean: ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
-
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/clean
-
-#=============================================================================
 # Directory level rules for directory ros_unitree/unitree_ros/robots/aliengo_description
 
 # Recursive "all" directory target.
@@ -415,6 +397,24 @@ ros_unitree/unitree_ros/robots/aliengo_description/preinstall:
 ros_unitree/unitree_ros/robots/aliengo_description/clean:
 
 .PHONY : ros_unitree/unitree_ros/robots/aliengo_description/clean
+
+#=============================================================================
+# Directory level rules for directory ros_unitree/unitree_ros/robots/aliengoz1_description
+
+# Recursive "all" directory target.
+ros_unitree/unitree_ros/robots/aliengoz1_description/all: ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
+
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/all
+
+# Recursive "preinstall" directory target.
+ros_unitree/unitree_ros/robots/aliengoz1_description/preinstall:
+
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/preinstall
+
+# Recursive "clean" directory target.
+ros_unitree/unitree_ros/robots/aliengoz1_description/clean: ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
+
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/clean
 
 #=============================================================================
 # Directory level rules for directory ros_unitree/unitree_ros/robots/b1_description
@@ -4011,31 +4011,31 @@ ros_unitree/unitree_guide/unitree_move_base/CMakeFiles/move_base_msgs_generate_m
 .PHONY : ros_unitree/unitree_guide/unitree_move_base/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clean
 
 #=============================================================================
-# Target rules for target ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir
+# Target rules for target ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir
 
 # All Build rule for target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all:
-	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/depend
-	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
+ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all:
+	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/depend
+	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/unitree/catkin_ws/build/CMakeFiles --progress-num= "Built target aliengoZ1_description_xacro_generated_to_devel_space_"
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
 
 # Build rule for subdir invocation for target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule: cmake_check_build_system
+ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/unitree/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/unitree/catkin_ws/build/CMakeFiles 0
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
-aliengoZ1_description_xacro_generated_to_devel_space_: ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
+aliengoZ1_description_xacro_generated_to_devel_space_: ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/rule
 
 .PHONY : aliengoZ1_description_xacro_generated_to_devel_space_
 
 # clean rule for target.
-ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean:
-	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
-.PHONY : ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
+ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean:
+	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
+.PHONY : ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/clean
 
 #=============================================================================
 # Target rules for target ros_unitree/unitree_ros/z1_controller/CMakeFiles/unitree_move_z1.dir

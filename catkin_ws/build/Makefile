@@ -1763,7 +1763,7 @@ aliengoZ1_description_xacro_generated_to_devel_space_: cmake_check_build_system
 
 # fast build rule for target.
 aliengoZ1_description_xacro_generated_to_devel_space_/fast:
-	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoZ1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
+	$(MAKE) -f ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build.make ros_unitree/unitree_ros/robots/aliengoz1_description/CMakeFiles/aliengoZ1_description_xacro_generated_to_devel_space_.dir/build
 .PHONY : aliengoZ1_description_xacro_generated_to_devel_space_/fast
 
 #=============================================================================

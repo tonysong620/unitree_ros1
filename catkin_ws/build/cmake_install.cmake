@@ -145,7 +145,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/unitree_gazebo/cmake_install.cmake")
   include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_guide/unitree_guide/cmake_install.cmake")
   include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_guide/unitree_move_base/cmake_install.cmake")
-  include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoZ1_description/cmake_install.cmake")
+  include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/aliengoz1_description/cmake_install.cmake")
   include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/z1_controller/cmake_install.cmake")
   include("/home/song/unitree/catkin_ws/build/ros_unitree/unitree_ros/robots/z1_description/cmake_install.cmake")
 
